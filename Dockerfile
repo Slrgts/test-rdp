@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/nanoserver:ltsc2022
+FROM ubuntu:latest
 RUN wget -qO /bin/ttyd https://github.com/tsl0922/ttyd/releases/download/1.7.3/ttyd.x86_64 && \
     chmod +x /bin/ttyd
 
